@@ -1,0 +1,34 @@
+body {
+    font-family: 'Verdana';
+    font-weight: 400;
+    margin:0;
+    padding: 0; 
+    color: #335576;
+}
+
+li {
+    list-style-type: none;
+  }
+
+h1, h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 2.063rem;
+    font-weight: 300;
+  
+  }
+  
+  nav a {
+    font-size: 1.313rem;
+    font-weight: 400;
+  }
+  
+  p {
+    margin:0;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }

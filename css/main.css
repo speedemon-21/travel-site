@@ -1,0 +1,174 @@
+
+.travel{
+    background-color: #FFFFFF;
+
+}
+
+.herocontent{
+    background-color: #FEFAF5;
+    display: flex;
+
+}
+.herocontent img{
+    max-width: 40%; 
+    height: 40%; 
+    margin:5rem ;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     margin-left: 6.25rem;
+}
+.text-content--p{
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+width:50%
+
+}
+
+
+.button{
+    background-color:#5BACC3;
+    color: #ffffff;
+}
+
+
+#our-products h2
+{
+    text-align:left;
+    margin:0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+#our-products{
+    background-color: #FFFFFF;
+    display: flex;
+   flex-direction: column;
+   /* text-align: center; */
+   /* justify-content: center;  */
+   /* align-items: center; */
+   padding:5rem;
+}
+
+
+
+
+
+.product-card p{
+    color: #FFFFFF;
+   
+}
+.card-box {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+  }
+  
+  .product-card {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 10px; 
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 5px; 
+    font-weight: bold;
+ 
+  }
+  
+
+footer{
+    background-color: #FEFAF5;
+}
+
+.discount p{
+    width: 80%; 
+    height:100%;
+    padding-top: 2.5rem;
+    background-color: #393939;
+    color: white;
+    font-size: 2.813rem;
+    font-weight: 400;
+
+}
+
+
+strong{
+    color: #DB7A4E;
+  }
+
+
+button {
+  background-color: #DB7A4E; 
+  color: #ffffff;
+  font-size: 1.313rem;
+  font-weight: 400;
+  width: 11.25rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 50px;
+} 
+
+.menu-header nav a,
+.menu-header nav ul,
+.menu-header nav ul li {
+  display: inline-block;
+  margin: 0.625rem ;
+  text-decoration: none;
+  color:black;
+  
+}
+.menu-header nav ul li:hover {
+    border-bottom: 2px solid red; 
+ 
+  }
+
+.menu-header nav h3{
+    display: inline;
+    margin: 1.25rem 30rem 1.25rem 1.25rem;
+    text-decoration: none;
+    color: #335576;
+    font-weight: bold;
+    
+  }
+
+footer {
+    display: flex;
+    justify-content: center; 
+
+  }
+  
+  footer div {
+    display: inline-block; 
+    margin: 5rem; 
+
+  }
+
+  .social img{
+    margin-right: 35px;
+    max-width: 20%;
+  }
+
+  .hours div{
+    display: inline-block;
+    margin: 0px 15px 0 0;
+ 
+  }
+  .hours{
+    margin: 80px 40px ;
+  }

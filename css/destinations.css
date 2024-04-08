@@ -1,0 +1,205 @@
+
+.travel{
+  background-color: #FFFFFF;
+
+}
+.herocontent{
+  color: #393939;
+  display: flex;
+
+
+}
+.herocontent img{
+  max-width: 40%; 
+  height: 40%; 
+  margin:5rem ;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+   margin-left: 6.25rem;
+}
+.text-content--p{
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+width:50%;
+
+
+}
+
+.container {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto; 
+}
+
+
+.herocontent--hawaii {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-image: url('../assets/Images/hawaii.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.herocontent--iceland{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-image: url('../assets/Images/iceland.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.herocontent--greece{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-image: url('../assets/Images/greece.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text-content {
+  position: absolute;
+  color: white;
+  text-align:start;
+ top:0;
+ left:0;
+  padding: 10px;
+}
+
+.itinerary-container {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+ 
+}
+
+.itinerary {
+  background-color: rgba(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px;
+  width: 300px;
+  height: 500px;
+}
+
+.itinerary h3 {
+  margin-bottom:10px;
+  text-align: center;
+ 
+}
+
+.itinerary hr {
+  width: 80%;
+}
+
+.itinerary p{
+  margin: 15px 0;
+  text-align: center;
+  background-color: #FEFAF5;
+  padding: 20px;
+}
+
+
+
+
+.button{
+  background-color:#5BACC3;
+  color: #ffffff;
+}
+
+
+
+
+footer{
+  background-color: #FEFAF5;
+}
+
+.discount p{
+  width: 80%; 
+  height:100%;
+  padding-top: 2.5rem;
+  background-color: #393939;
+  color: white;
+  font-size: 2.813rem;
+  font-weight: 400;
+
+}
+
+
+strong{
+  color: #DB7A4E;
+}
+
+
+button {
+background-color: #DB7A4E; 
+color: #ffffff;
+font-size: 1.313rem;
+font-weight: 400;
+width: 11.25rem;
+padding: 0.625rem 1.25rem;
+border-radius: 50px;
+} 
+
+.menu-header nav a,
+.menu-header nav ul,
+.menu-header nav ul li {
+display: inline-block;
+margin: 0.625rem ;
+text-decoration: none;
+color:black;
+
+}
+.menu-header nav ul li:hover {
+  border-bottom: 2px solid red; 
+
+}
+
+.menu-header nav h3{
+  display: inline;
+  margin: 1.25rem 30rem 1.25rem 1.25rem;
+  text-decoration: none;
+  color: #335576;
+  font-weight: bold;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center; 
+
+}
+
+footer div {
+  display: inline-block; 
+  margin: 5rem; 
+
+}
+
+.social img{
+  margin-right: 35px;
+  max-width: 20%;
+}
+
+.hours div{
+  display: inline-block;
+  margin: 0px 15px 0 0;
+
+}
+.hours{
+  margin: 80px 40px ;
+}
